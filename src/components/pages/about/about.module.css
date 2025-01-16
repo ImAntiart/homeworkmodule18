@@ -1,11 +1,15 @@
 .about {
+  display: flex;
+  flex-direction: column;
   max-width: var(--max-width);
   overflow: hidden;
   padding: 0 1rem;
-  color: var(--dark-red);
+  color: #111;
   margin: 0 auto;
 }
+
 .container {
+  margin-top: 5%;
   background: var(--secondary-color);
   border-radius: 2rem;
   padding: 8rem 2rem;
@@ -36,7 +40,7 @@
   margin: 5rem 0 0 3rem;
 }
 .info_numbers_last a {
-  color: #dd4045;
+  color: #111;
   display: inline-block;
   margin-left: 0.2rem;
   position: relative;
@@ -81,7 +85,7 @@
 }
 .link a {
   text-transform: capitalize;
-  color: #dd4045;
+  color: #111;
   display: block;
   margin-left: 0.2rem;
   position: relative;

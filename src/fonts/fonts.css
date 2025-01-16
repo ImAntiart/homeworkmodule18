@@ -1,4 +1,9 @@
 @font-face {
+  font-family: 'Lobster';
+  src: url('./Lobster.otf');
+}
+
+@font-face {
   font-family: 'Roboto';
   src: url('./Roboto-Black.ttf');
 }
@@ -18,3 +23,4 @@
   font-family: 'Raleway Regular';
   src: url('./Raleway-Regular.ttf');
 }
+

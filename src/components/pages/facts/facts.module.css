@@ -4,6 +4,7 @@
   overflow: hidden;
   padding: 0 1rem;
   margin: 0 auto;
+  margin-top: 3%;
 }
 .container h2 {
   font-family: var(--head-font);

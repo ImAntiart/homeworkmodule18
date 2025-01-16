@@ -1,9 +1,10 @@
-.footer_container {
-  display: grid;
-  margin: 0 auto;
+.footerContainer {
+  box-sizing: border-box;
+  padding: 10px;
   max-width: var(--max-width);
   font-family: var(--head-font-r);
   width: auto;
+  text-align: right;
 }
 .footer_container span {
   text-align: center;

@@ -1,8 +1,12 @@
 @import url('./fonts/fonts.css');
 body {
   background: #f9f5f4;
+  display: flex;
+  flex-direction: column;
 }
 #root {
+  display: flex;
+  flex-direction: column;
   --max-width: 1400px;
   --text-font-rmedium: 'Raleway Medium';
   --text-font: 'Raleway Regular', sans-serif;
@@ -50,7 +54,4 @@ header {
   margin: 0 auto;
   width: 100%;
   height: 5rem;
-}
-main {
-  padding: 5rem 2rem;
 }
